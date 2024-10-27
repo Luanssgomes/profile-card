@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+/*------------------------- */
+/*---------STYLE----------- */
+/*------------------------- */
+
+body{ 
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'kumbh Sans', sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{ 
+    width: 75px;
+}
+
+h1{
+    font-size: 18px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.container{
+    background-color: rgb(246, 246, 246);
+    width: 240px;
+    height: 285px;
+    border-radius: 0.5rem;
+}
+
+
+
+    /* up */
+
+.up{
+    border-bottom: 3px solid rgba(197, 196, 196, 0.81);
+    height: 210px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img-of-card{
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.user-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age{
+    font-size: medium;
+    font-weight: 400;
+}
+
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* down */
+
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.counter{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- */
+/*---------RESET AND VARIABELS----------- */
+/*--------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
